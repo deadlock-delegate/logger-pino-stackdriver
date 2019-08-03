@@ -1,0 +1,51 @@
+{
+  "name": "@deadlock-delegate/logger-pino-stackdriver",
+  "version": "0.1.0",
+  "description": "Ark Ecosystem plugin enabling sending logs to Stackdriver",
+  "author": "roks0n",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "ark",
+    "ark ecosystem",
+    "plugin",
+    "crypto",
+    "dpos",
+    "logging",
+    "stackdriver"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadlock-delegate/logger-pino-stackdriver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deadlock-delegate/logger-pino-stackdriver/issues"
+  },
+  "homepage": "https://github.com/deadlock-delegate/logger-pino-stackdriver",
+  "scripts": {
+    "test": "ARK_ENV=test jest --runInBand --forceExit",
+    "lint": "eslint ./ --fix"
+  },
+  "dependencies": {
+    "@arkecosystem/core-container": "^2.5.14",
+    "@arkecosystem/core-interfaces": "^2.5.14",
+    "@arkecosystem/core-logger": "^2.5.14",
+    "@arkecosystem/core-logger-pino": "^2.5.14",
+    "pino-stackdriver": "^1.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.8.0",
+    "jest-extended": "^0.11.2",
+    "standard": "^13.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
