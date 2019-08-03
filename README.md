@@ -12,7 +12,7 @@ By replacing `core-pino-logger` with this plugin you won't loose any of existing
 
 #### For production:
 
-`yarn add global @deadlock-delegate/logger-pino-stackdriver`
+`yarn global add @deadlock-delegate/logger-pino-stackdriver`
 
 #### For development:
 
@@ -53,13 +53,13 @@ module.exports = {
 Open .env file that is located at `~/.config/ark-core/<network>/.env` (should be replaced by either mainnet, devnet or testnet) and add the following environment variable:
 
 ```
-GOOGLE_APPLICATION_CREDENTIALS=<path to your Google service account credentials>
+GOOGLE_APPLICATION_CREDENTIALS=<absolute path to your Google service account credentials>
 ```
 
 for example:
 
 ```
-GOOGLE_APPLICATION_CREDENTIALS=~/credentials.json
+GOOGLE_APPLICATION_CREDENTIALS=/home/user/credentials.json
 ```
 
 If you don't know how to create a Google service account for your project [check this out](https://cloud.google.com/docs/authentication/production).
