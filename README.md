@@ -8,6 +8,14 @@ This Ark plugin utilizes and extends Ark's core logger plugin called `core-logge
 
 By replacing `core-pino-logger` with this plugin you won't loose any of existing logging functionalities. This plugins simply extends the `core-pino-pluggin` with Stackdriver. Please note that if you have custom settings set for `core-pino-logger` in `plugins.js`, you'll have to move them to `logger-pino-stackdriver` which will pass them on to the `core-pino-logger`.
 
+#### ❤️ Support maintenance and development of plugins
+If you find this or other plugins useful please consider
+
+- voting for `deadlock` delegate
+- donating to `AWtgFYbvtLDYccJvC5MChk4dpiUy2Krt2U`
+
+to support development new plugins and tools for Ark's Ecosystem and maintenance of existing ones. Full list of contributions can be found on [https://arkdelegatesio/delegate/deadlock/](https://arkdelegates.io/delegate/deadlock/contributions/). 🖖
+
 ## Installation
 
 #### For production:
